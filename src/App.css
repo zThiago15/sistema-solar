@@ -1,3 +1,107 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('images/background.png');
+  color: white;
+  font-family: Space Mono , monospace;
+}
+
+header h1 {
+  font-size: 50px;
   text-align: center;
+
+}
+
+#title {
+  text-align: center;
+  border: 1px solid white;
+  width: 250px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+/* planets */
+.Planet {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+
+.ContainerPlanet {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-left: 20px;
+}
+
+.PlanetName {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#Mercúrio {
+  width: 20px;
+}
+
+#Vênus {
+  width: 50px;
+}
+
+#Terra {
+  width: 60px;
+}
+
+#Marte {
+  width: 40px;
+}
+
+#Júpiter {
+  width: 250px;
+}
+
+#Saturno {
+  width: 255px;
+}
+
+#Urano {
+  width: 150px;
+}
+
+#Netuno {
+  width: 150px;
+}
+
+img:hover {
+  /* Zoom on hover - https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+  transform: scale(1.1);
+}
+
+/* missions */
+.MissionCard {
+  border: 1px solid white;
+  border-radius: 16px;
+  margin: 20px;
+  width: 200px;
+
+}
+
+.CardTitle {
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.MissionAttributes {
+  padding: 10px;
+}
+
+.BoardMissions {
+  display: flex;
+  flex-wrap: wrap;
 }
