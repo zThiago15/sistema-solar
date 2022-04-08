@@ -19,10 +19,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-/* 
-  Tarefas:
-  - Colocar textos do sistema solar no meio da pág! [x]
-  - Diminuir a imagem [x]
-  -
-*/
