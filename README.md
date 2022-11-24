@@ -40,7 +40,5 @@ Landpage de um modelo do sistema solar, mostrando seus planetas em tamanhos dife
 
 ---
 
-
----
 Licença MIT 
 
